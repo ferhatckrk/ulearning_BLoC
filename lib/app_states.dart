@@ -4,6 +4,6 @@ class AppStates {
   AppStates({required this.counter});
 }
 
-class InitialStates extends AppStates {
-  InitialStates({required super.counter});
+class InitStates extends AppStates {
+  InitStates() : super(counter: 0);
 }
